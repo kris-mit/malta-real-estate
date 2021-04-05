@@ -1,0 +1,60 @@
+/* COLORS */
+
+$base-color: #BE1E2D;
+$secondary-color: #A97C50;
+$background-light: lighten(#9D7451, 15%) ;
+$background-dark: #2D2D2D;
+$bg-color-light: #f8f8f8;
+
+
+/* TEXT STYLE  */
+.secondary-text {
+    color: $secondary-color;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 72px;
+}
+
+.hidden {
+    display: none;
+}
+
+.primary-text {
+    color: $base-color;
+    font-weight: 500;
+}
+
+.dark-text {
+    color: $background-dark;
+     font-weight: 500;
+}
+
+// BUTTONS
+
+.primary-button {
+    align-self: center; 
+    padding: 16px 34px;
+    background-color: #2D2D2D;
+    color: #fff; line-height: 20px; border-radius: 3px;
+    outline: none;
+}
+
+
+// SECTION 
+$section-space: 200px;
+
+/* CUSTOM BLOCK */
+.wrapper {
+    position: relative;
+    width: 1110px;
+    margin: 0 auto; 
+}
+
+.flex-space-between {
+    display: flex; justify-content: space-between;
+}
+
+
+$blog-space-margin: 60px;
+
+$left: left;

@@ -1,0 +1,108 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; font-weight: 300;
+    position: relative;
+    padding-top: 116px;
+}
+
+a {display: inline-block; text-decoration: none;}
+
+#wrapper {
+    position: relative;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+#header {
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.header-top {
+    display: flex; justify-content: space-between;
+    background-color: #fff;
+    width: 1110px;
+    padding: 23px 0 20px 0;
+    position: fixed; 
+    top:0;
+    z-index: 22; width: 100%;
+}
+
+.header-nav {
+    display: flex; align-items: center;
+}
+
+.header-nav ul {
+    display: flex;
+    margin: 0; padding: 0;
+    list-style: none;
+}
+
+.header-nav ul li {
+    margin: 0 20px;
+}
+
+.header-nav ul li a {
+    color: #000; line-height: 20px;
+}
+
+.attend-button {
+    align-self: center; 
+    padding: 16px 34px;
+    background-color: #2D2D2D;
+    color: #fff; line-height: 20px; border-radius: 3px;
+}
+
+.hero {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    align-items: center;
+}
+
+.hero-content {
+    width: 60%;
+}
+
+.hero-image {
+    width:100%;
+    background-image: url("./images/hero-image.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right:-755px;
+    height: 100%;
+}
+.hero-content h1 span {
+    font-size: 80px; line-height: 72px; font-weight: 300;
+}
+.hero-content h1 span.first-col {
+    color: #A97C50; 
+}
+
+.hero-content h1 span.second-col {
+    color: #BE1E2D; font-weight: 500;
+}
+
+.hero-content h1 .third-col {
+    color: #2D2D2D; font-weight: 500;
+} 
+
+.next-event-counter {
+    background-color: rgb(219, 210, 210);
+    position: absolute;
+    top: 50%; right: 0;
+    transform: translateY(-50%);
+}
+
+.form-event {
+    height: 400px; width: 400px; background-color: #A97C50;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
